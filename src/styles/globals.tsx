@@ -4,8 +4,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
+        maxWidth: "100%",
+        display: "flex",
+        alignItems: "center"
     },
 });
 

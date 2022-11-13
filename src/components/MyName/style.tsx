@@ -8,9 +8,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flexDirection: 'row',
         padding: 10,
-        width: '90%',
+        width: '100%',
         borderRadius: 10,
         position: 'relative',
+        margin: 20
     },
     button: {
         marginLeft: 10,

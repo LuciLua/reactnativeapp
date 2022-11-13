@@ -8,12 +8,12 @@ const styles = StyleSheet.create({
         paddingTop: 50,
         padding: 20, 
         width: '100%',
-        position: 'absolute',
+        position: 'relative',
         top: 0,
         display: 'flex',
         flexDirection: 'row',
         borderBottomRightRadius: 12,
-        borderBottomLeftRadius: 12
+        borderBottomLeftRadius: 12,
     },
     text: {
         color: '#ddd',
