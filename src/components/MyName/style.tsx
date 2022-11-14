@@ -8,13 +8,13 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flexDirection: 'row',
         padding: 10,
-        width: '100%',
         borderRadius: 10,
         position: 'relative',
-        margin: 20
+        margin: 10
     },
     button: {
         marginLeft: 10,
+        marginRight: 5,
         backgroundColor: '#ccc',
         width: 40,
         height: 40,
@@ -28,7 +28,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         color: '#121212',
         padding: 12,
-        borderRadius: 10
+        paddingEnd: 50,
+        borderRadius: 10,
+        width: '100%'
     }
 });
 

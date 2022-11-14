@@ -6,7 +6,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         maxWidth: "100%",
         display: "flex",
-        alignItems: "center"
+        flexDirection: "column",
+        minHeight: '100%'
     },
 });
 

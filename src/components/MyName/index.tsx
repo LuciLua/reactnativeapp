@@ -5,7 +5,7 @@ import { styles } from './style'
 
 function MyName({ setName, name }) {
     function sendAlert() {
-        Alert.alert('Malware alert', `Your smartphone have a powerful virus now, all your files has been encrypted, ${name}`)
+        Alert.alert('⚠ Malware alert', `${name}, your smartphone have a powerful virus now, all your files has been encrypted`)
     }
 
     return (
@@ -17,8 +17,8 @@ function MyName({ setName, name }) {
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => sendAlert()}>
-                    <Text>click</Text>
-                </TouchableOpacity>
+                <Text>🦠</Text>
+            </TouchableOpacity>
         </View>
     )
 }

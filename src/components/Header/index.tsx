@@ -3,7 +3,7 @@ import { View, Text, Image } from 'react-native'
 import { styles } from './style'
 
 
-function MainHeader({name, setName}) {
+function MainHeader({ name }) {
     return (
 
         <View style={styles.container}>
