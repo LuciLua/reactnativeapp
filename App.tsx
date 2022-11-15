@@ -5,6 +5,7 @@ import { Routes } from './src/routes';
 import MainHeader from './src/components/Header';
 
 import { useState } from 'react'
+import { StackRoutes } from './src/routes/stack.routes';
 
 export default function App() {
 

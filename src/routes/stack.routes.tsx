@@ -10,10 +10,16 @@ export function StackRoutes() {
             <Screen
                 name="Initial"
                 component={Initial}
-            />
+                options={{ 
+                    headerShown: false,
+                }}
+                />
             <Screen
                 name="Home"
                 component={Home}
+                options={{ 
+                    headerShown: false,
+                }}
             />
         </Navigator>
     )

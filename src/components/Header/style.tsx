@@ -5,17 +5,24 @@ const styles = StyleSheet.create({
         backgroundColor: '#1299ee',
         alignItems: 'center',
         justifyContent: 'center',
-        paddingTop: 25,
+        paddingTop: 45,
         padding: 20, 
         width: '100%',
         position: 'relative',
         top: 0,
         display: 'flex',
         flexDirection: 'row',
+
+        shadowOffset: { width: 1, height: 1},
+        shadowColor: '#000',
+        shadowOpacity: 1,
+        shadowRadius: 10,
+        elevation: 10
     },
     text: {
         color: '#ddd',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontSize: 25
     },
     profilePhotoContainer: {
         backgroundColor: '#fff',
