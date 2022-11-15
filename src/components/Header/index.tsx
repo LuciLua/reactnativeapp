@@ -1,17 +1,20 @@
-import React, { useState } from 'react'
-import { View, Text, Image } from 'react-native'
+import React from 'react'
+import { View, Text, Image, Button } from 'react-native'
+import useName from '../../hooks/useName'
 import { styles } from './style'
 
 
-function MainHeader({ name }) {
-    return (
+function MainHeader() {
 
+    const {name, setName} = useName()
+
+    return (
         <View style={styles.container}>
             <Text style={styles.text}>
                 {name}
             </Text>
             <View style={styles.profilePhotoContainer}>
-                <Image style={styles.img} source={require('../../../assets/luci.jpg')} />
+                <Image style={styles.img} source={require('../../../assets/3.png')} />
             </View>
         </View>
     )

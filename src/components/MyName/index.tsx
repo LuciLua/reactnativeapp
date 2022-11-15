@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import { View, Text, Image, TextInput, Button, Alert, Touchable, TouchableOpacity } from 'react-native'
 import { styles } from './style'
+import useName from '../../hooks/useName'
 
 
-function MyName({ setName, name }) {
+function MyName({ name, setName }) {
+
+
     function sendAlert() {
         Alert.alert('⚠ Malware alert', `${name}, your smartphone have a powerful virus now, all your files has been encrypted`)
     }
-
     return (
         <View style={styles.container}>
             <TextInput

@@ -33,6 +33,7 @@ function Cards() {
             <FlatList
                 horizontal={true}
                 data={itens}
+                showsHorizontalScrollIndicator={false}
                 renderItem={({ item }) => (
                     <View style={styles.card}>
                         <View style={styles.infoCard}>
