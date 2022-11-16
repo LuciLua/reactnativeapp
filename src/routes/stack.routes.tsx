@@ -1,4 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import CardPage from '../Screens/CardPage';
 import Home from '../Screens/Home';
 import Initial from '../Screens/Initial';
 
@@ -17,6 +18,13 @@ export function StackRoutes() {
             <Screen
                 name="Home"
                 component={Home}
+                options={{ 
+                    headerShown: false,
+                }}
+            />
+            <Screen
+                name="CardPage"
+                component={CardPage}
                 options={{ 
                     headerShown: false,
                 }}

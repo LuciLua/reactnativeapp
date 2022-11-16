@@ -2,24 +2,20 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
-        padding: 10
+        padding: 10,
     },
     card: {
-        backgroundColor: '#1299ee', 
+        backgroundColor: '#1299ee',
         padding: 10,
         marginRight: 10,
         marginTop: 10,
         color: '#fff',
-        height: 250,
+        height: 290,
         position: "relative",
         display: "flex",
         borderRadius: 10,
 
-        shadowColor: '#555',
-        shadowOffset: { width: -5, height: 10 },
-        shadowOpacity: 1,
-        shadowRadius: 0.01,
-        elevation: 10,
+        elevation: 5,
     },
     imgContainer: {
         display: "flex",
@@ -31,7 +27,8 @@ export const styles = StyleSheet.create({
         overflow: "hidden",
         borderRadius: 5,
         backgroundColor: '#fff',
-        marginTop: 'auto'
+        marginTop: 'auto',
+        marginBottom: 10
     },
     img: {
         width: '100%',
@@ -52,17 +49,24 @@ export const styles = StyleSheet.create({
     h1: {
         color: '#fff',
         fontSize: 20,
-        fontFamily: 'monospace'
     },
     h2: {
         color: '#fff',
         fontSize: 15,
-        fontFamily: 'monospace'
     },
     id: {
         position: "absolute",
         fontSize: 70,
         color: "#fff5",
         right: 10
+    },
+    button: {
+        backgroundColor: '#3faaee',
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: 10,
+        borderRadius: 5,
+        color: '#fff'
     }
 })

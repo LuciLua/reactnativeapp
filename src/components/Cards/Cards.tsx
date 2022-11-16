@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { FlatList, Image, Text, View } from "react-native";
+import { FlatList, Image, Text, View, Button } from "react-native";
 import { styles } from "./style";
 
-function Cards() {
+function Cards({ onPress }) {
 
     const [itens, setItems] = useState([
         {
@@ -51,6 +51,10 @@ function Cards() {
                         <View style={styles.imgContainer}>
                             <Image style={styles.img} source={item.picture} />
                         </View>
+                        <View style={styles.button} onTouchEndCapture={() => onPress()}>
+                        <Text style={styles.h2}>Click</Text>
+                        </View>
+
                     </View>
 
                 )

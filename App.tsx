@@ -3,16 +3,18 @@ import { View, Text } from 'react-native';
 
 import { Routes } from './src/routes';
 import MainHeader from './src/components/Header';
-
-import { useState } from 'react'
-import { StackRoutes } from './src/routes/stack.routes';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
+  function backInitial() {
+    console.log('how to back omg')
+  }
 
   return (
-      <View style={styles.container}>
-        <MainHeader />
-        <Routes />
-      </View>
+    <View style={styles.container}>
+      <StatusBar backgroundColor='#0e78bc' translucent={false}/>
+      <MainHeader onPress={backInitial} />
+      <Routes />
+    </View>
   );
 }
