@@ -2,29 +2,7 @@ import { useEffect, useState } from "react";
 import { FlatList, Image, Text, View, Button } from "react-native";
 import { styles } from "./style";
 
-function Cards({ onPress }) {
-
-    const [itens, setItems] = useState([
-        {
-            id: 0,
-            name: 'Avatar 1',
-            email: 'avatar1@gmail.com',
-            picture: require('../../../assets/1.jpg')
-        },
-        {
-            id: 1,
-            name: 'Avatar 2',
-            email: 'avatar2@gmail.com',
-            picture: require('../../../assets/3.png')
-        },
-        {
-            id: 2,
-            name: 'Avatar 3',
-            email: 'avatar3@gmail.com',
-            picture: require('../../../assets/4.jpeg')
-        },
-    ])
-
+function Cards({ onPress, items }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>
@@ -32,7 +10,7 @@ function Cards({ onPress }) {
             </Text>
             <FlatList
                 horizontal={true}
-                data={itens}
+                data={items}
                 showsHorizontalScrollIndicator={false}
                 renderItem={({ item }) => (
                     <View style={styles.card}>
