@@ -3,6 +3,15 @@ import { FlatList, Image, Text, View, Button } from "react-native";
 import { styles } from "./style";
 
 function Cards({ onPress, items }) {
+    
+    async function getImages(){
+        // const result = `../../../assets/${item}`
+        // return result
+        // return "../../../assets/1.jpg"
+
+        return '../../../assets/1.jpg'
+    }
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>
@@ -27,7 +36,7 @@ function Cards({ onPress, items }) {
                         </View>
 
                         <View style={styles.imgContainer}>
-                            <Image style={styles.img} source={item.picture} />
+                            <Image style={styles.img} source={require('../../../assets/amelie.webp')} />
                         </View>
                         <View style={styles.button} onTouchEndCapture={() => onPress()}>
                         <Text style={styles.h2}>Click</Text>

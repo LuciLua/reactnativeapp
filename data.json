@@ -1,0 +1,74 @@
+{
+    "one": [
+        {
+            "id": 0,
+            "name": "Avatar asdas",
+            "email": "avatar1@gmail.com",
+            "picture": "1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Avatar 2",
+            "email": "'avatar2@gmail.com'",
+            "picture": "3.png"
+        },
+        {
+            "id": 2,
+            "name": "Avatar 3",
+            "email": "'avatar3@gmail.com'",
+            "picture": "4.jpeg"
+        }
+    ],
+    "two": [
+        {
+            "id": 0,
+            "name": "Avatar 1",
+            "email": "avatar1@gmail.com",
+            "picture": "1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Avatar 2",
+            "email": "'avatar2@gmail.com'",
+            "picture": "3.png"
+        },
+        {
+            "id": 2,
+            "name": "Avatar 3",
+            "email": "'avatar3@gmail.com'",
+            "picture": "4.jpeg"
+        }
+    ],
+    "three": [
+        {
+            "id": 0,
+            "name": "Avatar 1",
+            "email": "avatar1@gmail.com",
+            "picture": "2.png"
+        },
+        {
+            "id": 1,
+            "name": "Avatar 2",
+            "email": "'avatar2@gmail.com'",
+            "picture": "3.png"
+        },
+        {
+            "id": 2,
+            "name": "Avatar 3",
+            "email": "'avatar3@gmail.com'",
+            "picture": "4.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Avatar 3",
+            "email": "'avatar3@gmail.com'",
+            "picture": "4.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Avatar 3",
+            "email": "'avatar3@gmail.com'",
+            "picture": "4.jpeg"
+        }
+    ]
+}
