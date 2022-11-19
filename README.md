@@ -1,6 +1,6 @@
 ### React Native App with expo
 #### Preview
-<img src='./preview.png'>
+<img src='./imgpreview.png'>
 
 ```bash
 npx expo start
