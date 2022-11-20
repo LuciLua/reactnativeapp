@@ -1,51 +1,22 @@
-import { useEffect, useState } from "react";
-import { FlatList, Image, Text, View, Button } from "react-native";
-import { styles } from "./style";
+import { FlatList, Text, View } from "react-native";
+import Card from "./Card/Card";
+import { styles } from "./CardsStyle";
 
-function Cards({ onPress, items }) {
-    
-    async function getImages(){
-        // const result = `../../../assets/${item}`
-        // return result
-        // return "../../../assets/1.jpg"
-
-        return '../../../assets/1.jpg'
-    }
+function Cards({ items, onTouchEnd }) {
 
     return (
         <View style={styles.container}>
             <Text style={styles.title}>
-                Avatars available
+                Enquadramentos
+            </Text>
+            <Text style={styles.subtitle}>
+                Planos e ângulos
             </Text>
             <FlatList
                 horizontal={true}
                 data={items}
                 showsHorizontalScrollIndicator={false}
-                renderItem={({ item }) => (
-                    <View style={styles.card}>
-                        <View style={styles.infoCard}>
-                            <Text style={styles.h1}>
-                                {item.name}
-                            </Text>
-                            <Text style={styles.id}>
-                                {item.id}
-                            </Text>
-                            <Text style={styles.h2}>
-                                {item.email}
-                            </Text>
-                        </View>
-
-                        <View style={styles.imgContainer}>
-                            <Image style={styles.img} source={require('../../../assets/amelie.webp')} />
-                        </View>
-                        <View style={styles.button} onTouchEndCapture={() => onPress()}>
-                        <Text style={styles.h2}>Click</Text>
-                        </View>
-
-                    </View>
-
-                )
-                }
+                renderItem={({ item }) => <Card onTouchEnd={onTouchEnd} item={item} />}
             />
         </View >
     )

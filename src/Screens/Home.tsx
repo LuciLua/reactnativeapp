@@ -7,16 +7,19 @@ import data from '../../data.json'
 
 function Home({ navigation }) {
     function goCardPage() {
-        navigation.navigate('CardPage')
+        navigation.navigate('CardPage', 'aa')
     }
     const [items, setItems] = useState(data)
+
+
+    function goPageCard(){
+        navigation.navigate('CardPage', {name: 'sad'})
+    }
 
     return (
         <View>
             <ScrollView horizontal={false} showsVerticalScrollIndicator={false}>
-                <Cards items={items.one} onPress={goCardPage} />
-                <Cards items={items.two} onPress={goCardPage} />
-                <Cards items={items.three} onPress={goCardPage} />
+                <Cards onTouchEnd={goPageCard} items={items.one} />
             </ScrollView>
         </View >
     )

@@ -17,7 +17,7 @@ function Initial({ navigation }) {
         <View>
             <MyName name={name} setName={setName} />
             <View style={styles.button}>
-                <Button title='Go home' onPress={openScreen} color={'#1299ee'} />
+                <Button color={'#ffd119'} title='Go home' onPress={openScreen} />
             </View>
         </View>
     )

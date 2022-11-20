@@ -3,7 +3,7 @@ import Cards from '../components/Cards/Cards'
 import { ScrollView } from 'react-native-gesture-handler'
 import { useNavigation } from '@react-navigation/native'
 
-function CardPage({ navigation }) {
+function CardPage({ navigation, name }) {
 
     function back(){
         navigation.navigate('Home')
@@ -13,7 +13,8 @@ function CardPage({ navigation }) {
         <View>
             <ScrollView horizontal={false} showsVerticalScrollIndicator={false}>
                 <Text>Hello</Text>
-                <Button onPress={back} title='back'></Button>
+                <Text>{name}</Text>
+                <Button onPress={back} title='Back To Home' color={'#ffd119'}></Button>
             </ScrollView>
         </View >
     )

@@ -2,21 +2,39 @@
     "one": [
         {
             "id": 0,
-            "name": "Avatar asdas",
-            "email": "avatar1@gmail.com",
-            "picture": "1.jpg"
+            "name": "Long Shot",
+            "email": "Plano Aberto",
+            "picture": "longshot.jpg"
         },
         {
             "id": 1,
-            "name": "Avatar 2",
-            "email": "'avatar2@gmail.com'",
-            "picture": "3.png"
+            "name": "Medium Shot",
+            "email": "Plano Médio",
+            "picture": "mediumshot.jpg"
         },
         {
             "id": 2,
-            "name": "Avatar 3",
-            "email": "'avatar3@gmail.com'",
-            "picture": "4.jpeg"
+            "name": "Close Up",
+            "email": "Plano Fechado",
+            "picture": "closeup.jpg"
+        },
+        {
+            "id": 3,
+            "name": "(PG) Plano Geral",
+            "email": "Plano Geral",
+            "picture": "pg.jpg"
+        },
+        {
+            "id": 4,
+            "name": "(PC) Plano de Conjunto",
+            "email": "Plano Conjunto",
+            "picture": "pc.jpg"
+        },
+        {
+            "id": 5,
+            "name": "(PM) Plano Médio",
+            "email": "Plano Médio",
+            "picture": "pm.jpg"
         }
     ],
     "two": [
