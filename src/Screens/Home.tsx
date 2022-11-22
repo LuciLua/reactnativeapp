@@ -6,20 +6,13 @@ import { useEffect, useState } from 'react'
 import data from '../../data.json'
 
 function Home({ navigation }) {
-    function goCardPage() {
-        navigation.navigate('CardPage', 'aa')
-    }
+    
     const [items, setItems] = useState(data)
-
-
-    function goPageCard(){
-        navigation.navigate('CardPage', {name: 'sad'})
-    }
-
+    
     return (
         <View>
             <ScrollView horizontal={false} showsVerticalScrollIndicator={false}>
-                <Cards onTouchEnd={goPageCard} items={items.one} />
+                <Cards items={items.one} />
             </ScrollView>
         </View >
     )

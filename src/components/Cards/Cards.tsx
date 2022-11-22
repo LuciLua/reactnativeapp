@@ -2,7 +2,7 @@ import { FlatList, Text, View } from "react-native";
 import Card from "./Card/Card";
 import { styles } from "./CardsStyle";
 
-function Cards({ items, onTouchEnd }) {
+function Cards({ items }) {
 
     return (
         <View style={styles.container}>
@@ -16,7 +16,7 @@ function Cards({ items, onTouchEnd }) {
                 horizontal={true}
                 data={items}
                 showsHorizontalScrollIndicator={false}
-                renderItem={({ item }) => <Card onTouchEnd={onTouchEnd} item={item} />}
+                renderItem={({ item }) => <Card item={item} />}
             />
         </View >
     )

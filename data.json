@@ -4,19 +4,22 @@
             "id": 0,
             "name": "Long Shot",
             "email": "Plano Aberto",
-            "picture": "longshot.jpg"
+            "picture": "longshot.jpg",
+            "description": "(a) PLANO ABERTO (“LONG SHOT”) – a câmera está distante do objeto, de modo que ele ocupa uma parte pequena do cenário. É um plano de AMBIENTAÇÃO."
         },
         {
             "id": 1,
             "name": "Medium Shot",
             "email": "Plano Médio",
-            "picture": "mediumshot.jpg"
+            "picture": "mediumshot.jpg",
+            "description": "(b) PLANO MÉDIO (“MEDIUM SHOT”) – a câmera está a uma distância média do objeto, de modo que ele ocupa uma parte considerável do ambiente, mas ainda tem espaço à sua volta. É um plano de POSICIONAMENTO e MOVIMENTAÇÃO."
         },
         {
             "id": 2,
             "name": "Close Up",
             "email": "Plano Fechado",
-            "picture": "closeup.jpg"
+            "picture": "closeup.jpg",
+            "description": "(c) PLANO FECHADO (“CLOSE-UP) – a câmera está bem próxima do objeto, de modo que ele ocupa quase todo o cenário, sem deixar grandes espaços à sua volta. É um plano de INTIMIDADE e EXPRESSÃO."
         },
         {
             "id": 3,

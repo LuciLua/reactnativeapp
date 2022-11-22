@@ -1,9 +1,7 @@
-import { View, Text, Button } from 'react-native'
-import Cards from '../components/Cards/Cards'
+import React from 'react'
+import { View, Text, Button, Image } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler'
-import { useNavigation } from '@react-navigation/native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
-import Home from './Home'
 
 import { StackParamList } from '../types/types'
 import { styles } from '../styles/StylesCardPage'
@@ -14,17 +12,25 @@ type Props = {
     routes: StackProps
 }
 
-function CardPage({ navigation, name }) {
+
+function CardPage({ navigation, route }) {
+
+    const { params } = route
 
     function back() {
-        navigation.navigate('Home')
+        navigation.navigate({
+            name: 'Home',
+            params: { name: '', description: '', picture: '../../../assets/1.jpg' },
+            merge: true,
+        });
     }
 
     return (
         <View style={styles.container}>
             <ScrollView horizontal={false} showsVerticalScrollIndicator={false}>
-                <Text>Hello</Text>
-                <Text>{name}</Text>
+                <Text style={styles.name}>{params.name}</Text>
+                <Text style={styles.description}>{params.description}</Text>
+                {/* <Image source={require(params.picture)} /> */}
                 <Button onPress={back} title='Back To Home' color={'#ffd119'}></Button>
             </ScrollView>
         </View >

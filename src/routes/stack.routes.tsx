@@ -27,10 +27,11 @@ export function StackRoutes() {
                 />
             <Screen
                 name="CardPage"
+                initialParams={{ name: "Luci", description: "something", picture: "../../../assets/1.jpg" }}
                 component={CardPage}
                 options={{ 
                     headerShown: false,
-                    animation: 'slide_from_bottom'
+                    animation: 'slide_from_bottom',
                 }}
             />
         </Navigator>
