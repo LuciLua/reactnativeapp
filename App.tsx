@@ -4,8 +4,10 @@ import { View, Text } from 'react-native';
 import { Routes } from './src/routes';
 import MainHeader from './src/components/Header';
 import { StatusBar } from 'expo-status-bar';
+import { useNavigation } from '@react-navigation/native';
 
 export default function App() {
+
   function backInitial() {
     console.log('how to back omg')
   }

@@ -13,6 +13,7 @@ export function StackRoutes() {
                 component={Initial}
                 options={{ 
                     headerShown: false,
+                    animation: 'none'
                 }}
                 />
             <Screen
@@ -20,13 +21,16 @@ export function StackRoutes() {
                 component={Home}
                 options={{ 
                     headerShown: false,
+                    animation: 'fade'
+                    
                 }}
-            />
+                />
             <Screen
                 name="CardPage"
                 component={CardPage}
                 options={{ 
                     headerShown: false,
+                    animation: 'slide_from_bottom'
                 }}
             />
         </Navigator>
