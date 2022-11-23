@@ -25,19 +25,36 @@
             "id": 3,
             "name": "(PG) Plano Geral",
             "email": "Plano Geral",
-            "picture": "pg.jpg"
+            "picture": "pg.jpg",
+            "description": "(a) PLANO GERAL (PG) – Com um ângulo visual bem aberto, a câmera revela o cenário à sua frente. A figura humana ocupa espaço muito reduzido na tela. Plano para exteriores ou interiores de grandes proporções. Também chamado, na intimidade, de “Geralzão”."
         },
         {
             "id": 4,
             "name": "(PC) Plano de Conjunto",
             "email": "Plano Conjunto",
-            "picture": "pc.jpg"
+            "picture": "pc.jpg",
+            "description": "(b) PLANO DE CONJUNTO (PC) – Com um ângulo visual aberto, a câmera revela uma parte significativa do cenário à sua frente. A figura humana ocupa um espaço relativamente maior na tela. É possível reconhecer os rostos das pessoas mais próximas à câmera. Também poderíamos chamá-lo de “Geralzinho”."
         },
         {
             "id": 5,
             "name": "(PM) Plano Médio",
             "email": "Plano Médio",
-            "picture": "pm.jpg"
+            "picture": "pm.jpg",
+            "description": "(c) PLANO MÉDIO (PM) – A figura humana é enquadrada por inteiro, com um pouco de “ar” sobre a cabeça e um pouco de “chão” sob os pés."
+        },
+        {
+            "id": 6,
+            "name": "(PA) Plano Americano",
+            "email": "Plano Americano",
+            "picture": "pa.jpg",
+            "description": "(d) PLANO AMERICANO (PA) – A figura humana é enquadrada do joelho para cima."
+        },
+        {
+            "id": 7,
+            "name": "(MPP) Meio Primeiro Plano",
+            "email": "Meio Primeiro Plano",
+            "picture": "mpp.jpg",
+            "description": "(e) MEIO PRIMEIRO PLANO (MPP) – A figura humana é enquadrada da cintura para cima."
         }
     ],
     "two": [
