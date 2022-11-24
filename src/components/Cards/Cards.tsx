@@ -2,15 +2,15 @@ import { FlatList, Text, View } from "react-native";
 import Card from "./Card/Card";
 import { styles } from "./CardsStyle";
 
-function Cards({ items }) {
+function Cards({ items, title, subtitle }) {
 
     return (
         <View style={styles.container}>
             <Text style={styles.title}>
-                Enquadramentos
+                {title}
             </Text>
             <Text style={styles.subtitle}>
-                Planos e ângulos
+                {subtitle}
             </Text>
             <FlatList
                 horizontal={true}

@@ -1,6 +1,5 @@
 import React from 'react'
 import { View, Text, Image } from 'react-native'
-import useName from '../../hooks/useName'
 import { styles } from './style'
 
 

@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
-import { View, Text, Image, TextInput, Button, Alert, Touchable, TouchableOpacity } from 'react-native'
+import React from 'react'
+import { View, Text, TextInput, Alert, TouchableOpacity } from 'react-native'
 import { styles } from './style'
-import useName from '../../hooks/useName'
-
 
 function MyName({ name, setName }) {
 

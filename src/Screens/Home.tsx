@@ -1,7 +1,7 @@
-import { View, Text } from 'react-native'
+import { View } from 'react-native'
 import Cards from '../components/Cards/Cards'
 import { ScrollView } from 'react-native-gesture-handler'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import data from '../../data.json'
 
@@ -12,7 +12,8 @@ function Home({ navigation }) {
     return (
         <View>
             <ScrollView horizontal={false} showsVerticalScrollIndicator={false}>
-                <Cards items={items.one} />
+                <Cards items={items.one} title={'Enquadramentos'} subtitle={'Enquandramento relacionado a Plano'}/>
+                <Cards items={items.two} title={'Enquadramentos/Angulos'} subtitle={'Enquandramento relacionado à Angulação'}/>
             </ScrollView>
         </View >
     )

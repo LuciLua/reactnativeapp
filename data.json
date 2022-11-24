@@ -60,20 +60,20 @@
     "two": [
         {
             "id": 0,
-            "name": "Avatar 1",
-            "email": "avatar1@gmail.com",
+            "name": "Angulo 1",
+            "email": "Angulo1@gmail.com",
             "picture": "1.jpg"
         },
         {
             "id": 1,
             "name": "Avatar 2",
-            "email": "'avatar2@gmail.com'",
+            "email": "angulo2@gmail.com",
             "picture": "3.png"
         },
         {
             "id": 2,
-            "name": "Avatar 3",
-            "email": "'avatar3@gmail.com'",
+            "name": "Angulo 3",
+            "email": "angulo3@gmail.com",
             "picture": "4.jpeg"
         }
     ],

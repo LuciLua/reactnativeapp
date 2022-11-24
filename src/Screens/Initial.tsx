@@ -1,4 +1,3 @@
-
 import { View, Button } from 'react-native'
 import MyName from '../components/MyName'
 import useName from '../hooks/useName'

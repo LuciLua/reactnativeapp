@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Button, Image } from 'react-native'
+import { View, Text, Button } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
