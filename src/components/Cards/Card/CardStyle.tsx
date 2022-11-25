@@ -54,9 +54,10 @@ export const styles = StyleSheet.create({
     },
     button: {
         display: "flex",
-        alignItems: "flex-start",
         justifyContent: "center",
-        padding: 10,
+        padding: 5,
         borderRadius: 5,
+        position: "relative",
+        width: 'auto',
     }
 })
