@@ -28,7 +28,7 @@ function Card({ item }) {
                     {item.id}
                 </Text>
                 <Text style={styles.h2}>
-                    {item.email}
+                    {item.othername}
                 </Text>
             </View>
 

@@ -1,111 +1,163 @@
 {
-    "one": [
+    "enquadramentos": [
         {
             "id": 0,
             "name": "Long Shot",
-            "email": "Plano Aberto",
+            "othername": "Plano Aberto",
             "picture": "longshot.jpg",
             "description": "(a) PLANO ABERTO (“LONG SHOT”) – a câmera está distante do objeto, de modo que ele ocupa uma parte pequena do cenário. É um plano de AMBIENTAÇÃO."
         },
         {
             "id": 1,
             "name": "Medium Shot",
-            "email": "Plano Médio",
+            "othername": "Plano Médio",
             "picture": "mediumshot.jpg",
             "description": "(b) PLANO MÉDIO (“MEDIUM SHOT”) – a câmera está a uma distância média do objeto, de modo que ele ocupa uma parte considerável do ambiente, mas ainda tem espaço à sua volta. É um plano de POSICIONAMENTO e MOVIMENTAÇÃO."
         },
         {
             "id": 2,
             "name": "Close Up",
-            "email": "Plano Fechado",
+            "othername": "Plano Fechado",
             "picture": "closeup.jpg",
             "description": "(c) PLANO FECHADO (“CLOSE-UP) – a câmera está bem próxima do objeto, de modo que ele ocupa quase todo o cenário, sem deixar grandes espaços à sua volta. É um plano de INTIMIDADE e EXPRESSÃO."
         },
         {
             "id": 3,
             "name": "(PG) Plano Geral",
-            "email": "Plano Geral",
+            "othername": "Plano Geral",
             "picture": "pg.jpg",
             "description": "(a) PLANO GERAL (PG) – Com um ângulo visual bem aberto, a câmera revela o cenário à sua frente. A figura humana ocupa espaço muito reduzido na tela. Plano para exteriores ou interiores de grandes proporções. Também chamado, na intimidade, de “Geralzão”."
         },
         {
             "id": 4,
             "name": "(PC) Plano de Conjunto",
-            "email": "Plano Conjunto",
+            "othername": "Plano Conjunto",
             "picture": "pc.jpg",
             "description": "(b) PLANO DE CONJUNTO (PC) – Com um ângulo visual aberto, a câmera revela uma parte significativa do cenário à sua frente. A figura humana ocupa um espaço relativamente maior na tela. É possível reconhecer os rostos das pessoas mais próximas à câmera. Também poderíamos chamá-lo de “Geralzinho”."
         },
         {
             "id": 5,
             "name": "(PM) Plano Médio",
-            "email": "Plano Médio",
+            "othername": "Plano Médio",
             "picture": "pm.jpg",
             "description": "(c) PLANO MÉDIO (PM) – A figura humana é enquadrada por inteiro, com um pouco de “ar” sobre a cabeça e um pouco de “chão” sob os pés."
         },
         {
             "id": 6,
             "name": "(PA) Plano Americano",
-            "email": "Plano Americano",
+            "othername": "Plano Americano",
             "picture": "pa.jpg",
             "description": "(d) PLANO AMERICANO (PA) – A figura humana é enquadrada do joelho para cima."
         },
         {
             "id": 7,
             "name": "(MPP) Meio Primeiro Plano",
-            "email": "Meio Primeiro Plano",
+            "othername": "Meio Primeiro Plano",
             "picture": "mpp.jpg",
             "description": "(e) MEIO PRIMEIRO PLANO (MPP) – A figura humana é enquadrada da cintura para cima."
+        },
+        {
+            "id": 8,
+            "name": "(PP) Primeiro Plano",
+            "othername": "Primeiro Plano",
+            "picture": "pp.jpg",
+            "description": "(f) PRIMEIRO PLANO (PP) – A figura humana é enquadrada do peito para cima. Também chamado de “CLOSE-UP, ou “CLOSE”."
+        },
+        {
+            "id": 9,
+            "name": "(PP) Primeiríssimo Plano",
+            "othername": "Primeiríssimo Plano",
+            "picture": "ppp.jpg",
+            "description": "(g) PRIMEIRÍSSIMO PLANO (PPP) – A figura humana é enquadrada dos ombros para cima. Também chamado de “BIG CLOSE-UP” ou “BIG-CLOSE”."
+        },
+        {
+            "id": 10,
+            "name": "(PD) Plano Detalhe",
+            "othername": "Plano Detalhe",
+            "picture": "pd.jpg",
+            "description": "(h) PLANO DETALHE (PD) – A câmera enquadra uma parte do rosto ou do corpo (um olho, uma mão, um pé, etc.). Também usado para objetos pequenos, como uma caneta sobre a mesa, um copo, uma caixa de fósforos, etc."
         }
     ],
-    "two": [
+    "angulos": [
         {
             "id": 0,
-            "name": "Angulo 1",
-            "email": "Angulo1@gmail.com",
-            "picture": "1.jpg"
+            "name": "Angulo Normal",
+            "othername": "Angulo Normal",
+            "picture": "normal.jpg",
+            "description": "ÂNGULO NORMAL – quando ela está no nível dos olhos da pessoa que está sendo filmada."
         },
         {
             "id": 1,
-            "name": "Avatar 2",
-            "email": "angulo2@gmail.com",
-            "picture": "3.png"
+            "name": "Plongee",
+            "othername": "Plongee",
+            "picture": "plonge.jpg",
+            "description": "PLONGÉE (palavra francesa que significa “mergulho”) – quando a câmera está acima do nível dos olhos, voltada para baixo. Também chamada de “câmera alta”."
         },
         {
             "id": 2,
-            "name": "Angulo 3",
-            "email": "angulo3@gmail.com",
-            "picture": "4.jpeg"
+            "name": "Contra-Plongée",
+            "othername": "Contra-Plongée",
+            "picture": "frontal.jpg",
+            "description": "FRONTAL – a câmera está em linha reta com o nariz da pessoa filmada."
+        },
+        {
+            "id": 3,
+            "name": "Frontal",
+            "othername": "Frontal",
+            "picture": "contraplonge.jpg",
+            "description": "CONTRA-PLONGÉE (com o sentido de “contra-mergulho”) – quando a câmera está abaixo do nível dos olhos, voltada para cima. Também chamada de “câmera baixa”."
+        },
+        {
+            "id": 4,
+            "name": "3/4",
+            "othername": "3/4",
+            "picture": "34.jpg",
+            "description": "3/4 – a câmera forma um ângulo de aproximadamente 45 graus com o nariz da pessoa filmada. Essa posição pode ser realizada com muitas variantes."
+        },
+        {
+            "id": 5,
+            "name": "Perfil",
+            "othername": "Perfil",
+            "picture": "perfil.jpg",
+            "description": "PERFIL – a câmera forma um ângulo de aproximadamente 90 graus com o nariz da pessoa filmada. O perfil pode ser feito à esquerda ou à direita."
+        },
+        {
+            "id": 6,
+            "name": "De Nuca",
+            "othername": "De Nuca",
+            "picture": "nuca.jpg",
+            "description": "DE NUCA – a câmera está em linha reta com a nuca da pessoa filmada. É um dos ângulos preferidos do cineasta Gus Van Sant, usado até à exaustão em “Elefante” (2003)."
         }
     ],
     "three": [
         {
             "id": 0,
             "name": "Avatar 1",
-            "email": "avatar1@gmail.com",
+            "othername": "avatar1@gmail.com",
             "picture": "2.png"
         },
         {
             "id": 1,
             "name": "Avatar 2",
-            "email": "'avatar2@gmail.com'",
+            "othername": "'avatar2@gmail.com'",
             "picture": "3.png"
         },
         {
             "id": 2,
             "name": "Avatar 3",
-            "email": "'avatar3@gmail.com'",
+            "othername": "'avatar3@gmail.com'",
             "picture": "4.jpeg"
         },
         {
             "id": 3,
             "name": "Avatar 3",
-            "email": "'avatar3@gmail.com'",
+            "othername": "'avatar3@gmail.com'",
             "picture": "4.jpeg"
         },
         {
             "id": 4,
             "name": "Avatar 3",
-            "email": "'avatar3@gmail.com'",
+            "othername": "'avatar3@gmail.com'",
             "picture": "4.jpeg"
         }
     ]

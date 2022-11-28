@@ -12,8 +12,8 @@ function Home({ navigation }) {
     return (
         <View>
             <ScrollView horizontal={false} showsVerticalScrollIndicator={false}>
-                <Cards items={items.one} title={'Enquadramentos'} subtitle={'Enquandramento relacionado a Plano'}/>
-                <Cards items={items.two} title={'Enquadramentos/Angulos'} subtitle={'Enquandramento relacionado à Angulação'}/>
+                <Cards items={items.enquadramentos} title={'Enquadramentos'} subtitle={'Enquandramento relacionado a Plano'}/>
+                <Cards items={items.angulos} title={'Enquadramentos/Angulos'} subtitle={'Enquandramento relacionado à Angulação'}/>
             </ScrollView>
         </View >
     )
