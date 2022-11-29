@@ -12,7 +12,6 @@ type Props = {
     routes: StackProps
 }
 
-
 function CardPage({ navigation, route }) {
 
     const { params } = route
