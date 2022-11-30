@@ -3,27 +3,18 @@ import { View, Text, Image, Button } from 'react-native'
 import { styles } from './CardStyle'
 
 
-function RenderImg({item}) {
+function RenderImg({ item }) {
 
-    function getName(){
-        var path1 =  `../../../../assets/pp.jpg`
-        var path2 =  `../../../../assets/${item.picture}`
-        // var path =  require(`../../../../assets/1.jpg`)
-        
-        var name = path1
-        // var name = ''
+    function getName() {
 
-        item.picture ? name = require(path1) : name = require(path1)
-
-        // const name =  require(`../../../../assets/1.jpg`)
-        console.log(name)
-
-
-        return name
-        // return require(`../../../../assets/1.jpg`)
+        // return require(`../../../../assets/${item.picture}.jpg`)
+        // return { uri: 'https://i.ytimg.com/vi/YKBRfDSw8h0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtjErrqDO855_nkExpmaoy4QE6WQ' }
+        return { uri: './assets/1.jpg' }
+        // return require(`../../../../assets/closeup.jpg`)
     }
+    return <Image style={styles.img} source={getName()}/>
     // return <Image style={styles.img} source={require(`../../../../assets/1.jpg`)} />
-    return <Image style={styles.img} source={getName()} />
+    // return <Image style={styles.img} source={{ uri: `./../../../../assets/1.jpg` }} />
 }
 
 function Card({ item }) {
