@@ -8,10 +8,10 @@ function MainHeader({ onPress }) {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>
-                Apptares
+                Cinemapp
             </Text>
             <View style={styles.profilePhotoContainer} onTouchEndCapture={() => onPress()}>
-                <Image style={styles.img} source={require('../../../assets/3.png')} />
+                <Image style={styles.img} source={require('../../../assets/frontal.jpg')} />
             </View>
         </View>
     )

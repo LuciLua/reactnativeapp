@@ -4,16 +4,23 @@ import { ScrollView } from 'react-native-gesture-handler'
 import { useState } from 'react'
 
 import data from '../../data.json'
+import { styles } from '../styles/Home'
 
 function Home({ navigation }) {
-    
+
     const [items, setItems] = useState(data)
-    
+
     return (
-        <View>
+        <View style={styles.container}>
             <ScrollView horizontal={false} showsVerticalScrollIndicator={false}>
-                <Cards items={items.enquadramentos} title={'Enquadramentos'} subtitle={'Enquandramento relacionado a Plano'}/>
-                <Cards items={items.angulos} title={'Enquadramentos/Angulos'} subtitle={'Enquandramento relacionado à Angulação'}/>
+                <Cards
+                    items={items.enquadramentos}
+                    title={'Enquadramentos'}
+                    subtitle={'Enquandramento relacionado a Plano'} />
+                <Cards
+                    items={items.angulos}
+                    title={'Enquadramentos/Angulos'}
+                    subtitle={'Enquandramento relacionado à Angulação'} />
             </ScrollView>
         </View >
     )

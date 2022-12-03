@@ -27,7 +27,7 @@ export function StackRoutes() {
                 />
             <Screen
                 name="CardPage"
-                initialParams={{ name: "Luci", description: "something", picture: "../../../assets/1.jpg" }}
+                initialParams={{ name: "Luci", description: "something", picture: "../../../assets/*" }}
                 component={CardPage}
                 options={{ 
                     headerShown: false,

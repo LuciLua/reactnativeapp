@@ -24,7 +24,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffd119"
+        "backgroundColor": "#007acc"
       },
       "package": "com.lucilua.apptares"
     },

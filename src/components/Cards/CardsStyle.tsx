@@ -2,35 +2,25 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
-        padding: 10,
+        padding: 15,
     },
     
     title: {
         fontSize: 25,
         fontWeight: 'bold',
-        marginTop: 10
-
+        marginTop: 10,
+        color: '#deeef8'
     },
     
     subtitle: {
         fontSize: 15,
         fontWeight: '400',
-        marginBottom: 20
-
+        marginBottom: 20,
+        color: '#deeef8'
     },
     infoCard: {
         position: "relative",
-        display: "flex",
-        justifyContent: "center",
-        height: 70,
+        height: 330,
     },
-    button: {
-        backgroundColor: '#3faaee',
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: 10,
-        borderRadius: 5,
-        color: '#fff'
-    }
+
 })

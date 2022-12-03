@@ -13,6 +13,7 @@ function Cards({ items, title, subtitle }) {
                 {subtitle}
             </Text>
             <FlatList
+                style={styles.infoCard}
                 horizontal={true}
                 data={items}
                 showsHorizontalScrollIndicator={false}

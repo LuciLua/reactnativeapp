@@ -3,18 +3,14 @@ import { View, Text, Image, Button } from 'react-native'
 import { styles } from './CardStyle'
 
 
-function RenderImg({ item }) {
+function RenderImg({ image }) {
+    const path1 = `../../../../assets/${image}`.toString()
+    console.log(path1)
 
-    function getName() {
+    const path2 = `../../../../assets/mediumshot.jpg`
 
-        // return require(`../../../../assets/${item.picture}.jpg`)
-        // return { uri: 'https://i.ytimg.com/vi/YKBRfDSw8h0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtjErrqDO855_nkExpmaoy4QE6WQ' }
-        return { uri: './assets/1.jpg' }
-        // return require(`../../../../assets/closeup.jpg`)
-    }
-    return <Image style={styles.img} source={getName()}/>
-    // return <Image style={styles.img} source={require(`../../../../assets/1.jpg`)} />
-    // return <Image style={styles.img} source={{ uri: `./../../../../assets/1.jpg` }} />
+    // return <Image style={styles.img} source={require(path1)} />
+    return <Image style={styles.img} source={require(path2)} />
 }
 
 function Card({ item }) {
@@ -41,10 +37,10 @@ function Card({ item }) {
             </View>
 
             <View style={styles.imgContainer}>
-                <RenderImg item={item} />
+                <RenderImg image={item.picture} />
             </View>
             <View style={styles.button}>
-                <Button title='Click' color={'#121212'} onPress={onTouchEnd} />
+                <Button title='Click' color={'#1e1e1e'} onPress={onTouchEnd} />
             </View>
 
         </View>

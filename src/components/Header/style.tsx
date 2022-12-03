@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#ffd119',
+        backgroundColor: '#007acc',
         alignItems: 'center',
         justifyContent: 'center',
         paddingTop: 20,
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         elevation: 10
     },
     text: {
-        color: '#000',
+        color: '#fff',
         fontWeight: 'bold',
         fontSize: 25
     },

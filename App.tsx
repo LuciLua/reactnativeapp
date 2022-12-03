@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor='#ffd119' translucent={false}/>
+      <StatusBar backgroundColor='#007acc' style='light' translucent={false}/>
       <MainHeader onPress={backInitial} />
       <Routes />
     </View>

@@ -13,10 +13,10 @@ function Initial({ navigation }) {
     }
 
     return (
-        <View>
-            <MyName name={name} setName={setName} />
-            <View style={styles.button}>
-                <Button color={'#ffd119'} title='Go home' onPress={openScreen} />
+        <View style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', backgroundColor: '#1e1e1e'}}>
+            {/* <MyName name={name} setName={setName} /> */}
+            <View>
+                <Button color={'#007acc'} title='Go home' onPress={openScreen} />
             </View>
         </View>
     )
