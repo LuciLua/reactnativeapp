@@ -7,3 +7,6 @@ This is my first model more serious of a app for android and iOS built with reac
 ```bash
 npx expo start
 ```
+
+
+Err: path das imagens nao querem chamar as imagens correspondentes
