@@ -8,5 +8,5 @@ This is my first model more serious of a app for android and iOS built with reac
 npx expo start
 ```
 
-
+Inseri como criar novo projeto expo
 Err: path das imagens nao querem chamar as imagens correspondentes
